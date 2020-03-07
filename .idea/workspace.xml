@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c03f7bb4-6b0f-47ce-aeaa-da1ac3c1a690" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Trajectoire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/algorithmeTraj/Descendente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tp1/classes/Arete.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tp1/classes/Arete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tp1/classes/Graphe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tp1/classes/Graphe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tp1/classes/Sommet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tp1/classes/Sommet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tp1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tp1/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Arete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Arete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Graphe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Graphe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/Sommet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Sommet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1YZ5bMVpDG4R674zrOUpJVyFZPP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="introduce.parameter.lambda" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="Tp1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c03f7bb4-6b0f-47ce-aeaa-da1ac3c1a690" name="Default Changelist" comment="" />
+      <created>1583137357550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583137357550</updated>
+      <workItem from="1583137378954" duration="7744000" />
+      <workItem from="1583159931078" duration="6198000" />
+      <workItem from="1583192628811" duration="1428000" />
+      <workItem from="1583220276500" duration="3086000" />
+      <workItem from="1583330224097" duration="9748000" />
+      <workItem from="1583436347780" duration="749000" />
+      <workItem from="1583448242809" duration="1146000" />
+      <workItem from="1583506784304" duration="2519000" />
+      <workItem from="1583517541602" duration="8387000" />
+      <workItem from="1583534914228" duration="4125000" />
+      <workItem from="1583589128995" duration="1338000" />
+      <workItem from="1583602817197" duration="2838000" />
+      <workItem from="1583611103482" duration="2055000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="491" y="100" width="539" height="590" key="#com.intellij.ide.util.MemberChooser" timestamp="1583605662331">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="491" y="100" width="539" height="590" key="#com.intellij.ide.util.MemberChooser/0.27.1366.708@0.27.1366.708" timestamp="1583605662331" />
+    <state x="366" y="107" width="624" height="554" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583604189742">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="366" y="107" width="624" height="554" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1366.708@0.27.1366.708" timestamp="1583604189742" />
+    <state x="416" y="129" width="524" height="510" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1583138937798">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="416" y="129" width="524" height="510" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.27.1366.708@0.27.1366.708" timestamp="1583138937798" />
+    <state x="254" y="27" width="848" height="708" key="CommitChangelistDialog2" timestamp="1583525336215">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="254" y="27" width="848" height="708" key="CommitChangelistDialog2/0.27.1366.708@0.27.1366.708" timestamp="1583525336215" />
+    <state width="1320" height="388" key="GridCell.Tab.0.bottom" timestamp="1583605698481">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="1320" height="388" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1583605698481" />
+    <state width="1320" height="388" key="GridCell.Tab.0.center" timestamp="1583605698480">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="1320" height="388" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1583605698480" />
+    <state width="1320" height="388" key="GridCell.Tab.0.left" timestamp="1583605698480">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="1320" height="388" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1583605698480" />
+    <state width="1320" height="388" key="GridCell.Tab.0.right" timestamp="1583605698481">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="1320" height="388" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1583605698481" />
+    <state width="1320" height="456" key="GridCell.Tab.1.bottom" timestamp="1583539345497">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="1320" height="456" key="GridCell.Tab.1.bottom/0.27.1366.708@0.27.1366.708" timestamp="1583539345497" />
+    <state width="1320" height="456" key="GridCell.Tab.1.center" timestamp="1583539345496">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="1320" height="456" key="GridCell.Tab.1.center/0.27.1366.708@0.27.1366.708" timestamp="1583539345496" />
+    <state width="1320" height="456" key="GridCell.Tab.1.left" timestamp="1583539345496">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="1320" height="456" key="GridCell.Tab.1.left/0.27.1366.708@0.27.1366.708" timestamp="1583539345496" />
+    <state width="1320" height="456" key="GridCell.Tab.1.right" timestamp="1583539345496">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="1320" height="456" key="GridCell.Tab.1.right/0.27.1366.708@0.27.1366.708" timestamp="1583539345496" />
+    <state x="172" y="27" width="1012" height="708" key="SettingsEditor" timestamp="1583605350764">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="172" y="27" width="1012" height="708" key="SettingsEditor/0.27.1366.708@0.27.1366.708" timestamp="1583605350764" />
+    <state width="498" height="523" key="SwitcherDM" timestamp="1583519056386">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="498" height="523" key="SwitcherDM/0.27.1366.708@0.27.1366.708" timestamp="1583519056386" />
+    <state x="343" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1583613544393">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="343" y="208" key="com.intellij.ide.util.TipDialog/0.27.1366.708@0.27.1366.708" timestamp="1583613544393" />
+    <state x="416" y="120" width="524" height="536" key="extract.method.dialog" timestamp="1583539051974">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="416" y="120" width="524" height="536" key="extract.method.dialog/0.27.1366.708@0.27.1366.708" timestamp="1583539051974" />
+    <state x="347" y="166" key="run.anything.popup" timestamp="1583333238094">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="347" y="166" key="run.anything.popup/0.27.1366.708@0.27.1366.708" timestamp="1583333238094" />
+    <state x="346" y="56" width="672" height="678" key="search.everywhere.popup" timestamp="1583526599646">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="346" y="56" width="672" height="678" key="search.everywhere.popup/0.27.1366.708@0.27.1366.708" timestamp="1583526599646" />
+  </component>
+</project>
