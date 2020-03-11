@@ -7,5 +7,5 @@ import java.util.List;
 
 @FunctionalInterface
 public interface Trajectoire {
-    ArrayList<Sommet> solve(List<Sommet> initialeSolution);
+    List<Sommet> solve(List<Sommet> initialSolution);
 }

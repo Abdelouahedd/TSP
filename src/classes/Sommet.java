@@ -1,5 +1,7 @@
 package classes;
 
+import java.util.List;
+
 /**
  * @author ae
  * class Sommet
@@ -9,6 +11,7 @@ public class Sommet implements Comparable {
      * l'index du sommet
      */
     private int index;
+    private int nbrVisite=0;
 
     /**
      * Constructeur par un index
@@ -27,6 +30,15 @@ public class Sommet implements Comparable {
     public int getIndex() {
         return index;
     }
+
+    public void visit() {
+        this.nbrVisite++;
+    }
+
+    public boolean isVisited() {
+        return this.nbrVisite>2;
+    }
+
 
     @Override
     public boolean equals(Object o) {

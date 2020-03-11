@@ -1,6 +1,9 @@
 package classes;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
 
 /**
  * @author abdelouahed ennouri
@@ -48,10 +51,6 @@ public class Graphe {
         return graphe;
     }
 
-    public int getNbVille() {
-        return nbVille;
-    }
-
     /**
      * @return imlemente le collections Set des aretes
      */
@@ -73,8 +72,8 @@ public class Graphe {
      * @return trier les arets
      * par ordre descendent
      */
-    public Set<Arete> getSortedAret() {
-        TreeSet<Arete> list=new TreeSet<>(Arete::compareTo);
+    public List<Arete> getSortedAret() {
+        List<Arete> list=new ArrayList<>();
         for (int i=0; i<nbVille; i++) {
             for (int j=i+1; j<nbVille; j++) {
                 Sommet s1=new Sommet(i);
@@ -83,23 +82,25 @@ public class Graphe {
                 list.add(aret);
             }
         }
+        Collections.sort(list, Arete::compareTo);
         return list;
     }
 
-/*    *//**
-     * generer initial solution
-     * @return une chemain
-     *//*
-    public List<Sommet> initialeSolution() {
-        List<Sommet> listVisited=new ArrayList<>();
-        for (Arete ar : getSortedAret()) {
-            if (! listVisited.contains(ar.getDebut()) && ! listVisited.contains(ar.getVoisin())) {
-                listVisited.add(ar.getDebut());
-                listVisited.add(ar.getVoisin());
-            }
-        }
-        return listVisited;
-    }*/
+    public int getPoid(int i, int j) {
+        return this.graphe.get(i).get(j);
+    }
 
+    /**
+     * @param chemain
+     * @return le cout du chemain passer en argumet
+     */
+    public int getCouts(List<Sommet> chemain) {
+        int cout=0;
+        for (int i=0; i<chemain.size()-1; i++) {
+            cout+=this.getPoid(chemain.get(i).getIndex(), chemain.get(i+1).getIndex());
+        }
+        cout+=this.getPoid(0, chemain.size()-1);
+        return cout;
+    }
 }
 
