@@ -32,6 +32,10 @@ public class Graphe {
         }
     }
 
+    public int getNbVille() {
+        return this.nbVille;
+    }
+
     /**
      * @return List des aretes
      */
