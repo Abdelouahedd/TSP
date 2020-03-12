@@ -25,7 +25,6 @@ public class Descendente extends AlgorithmeTrajectoir {
     /**
      * le fonction solve qui nous a permet de génerer
      * une solution a partir d'un solution initiale
-     *
      * @param initialSolution
      * @return List des sommets
      */
