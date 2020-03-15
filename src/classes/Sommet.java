@@ -48,9 +48,7 @@ public class Sommet implements Comparable {
 
     @Override
     public String toString() {
-        return "Sommet{"+
-                "index = "+index+
-                '}';
+        return ""+index+"->";
     }
 
     @Override

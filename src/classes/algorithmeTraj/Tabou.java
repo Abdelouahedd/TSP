@@ -5,6 +5,7 @@ import classes.Sommet;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.IntStream;
 
 /**
  * class Tabou
@@ -38,6 +39,7 @@ public class Tabou extends AlgorithmeTrajectoir {
         List<List<Sommet>> tabou=new ArrayList<>();//le tableau Tabou
         int i=0;//nombre d'iteration
         int j=0;//l'indice de sommet pour la permutation
+
         while (i++<1000) {
             voisins=super.generateVoisin(sommets, j);//generation du voisin de l'indice j
             voisinAvecCoutMin=super.getVoisinAvecCoutMin(voisins);//le meilleur voisin

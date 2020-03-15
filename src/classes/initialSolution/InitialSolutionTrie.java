@@ -26,16 +26,26 @@ public class InitialSolutionTrie implements InitialSolution {
             if (ar.getDebut().isVisited() || ar.getVoisin().isVisited()) {
                 continue;
             } else {
-                ar.getDebut().visit();
-                ar.getVoisin().visit();
-                if (! listVisited.contains(ar.getDebut())) {
-                    listVisited.add(ar.getDebut());
-                }
-                if (! listVisited.contains(ar.getVoisin())) {
-                    listVisited.add(ar.getVoisin());
-                }
+                choisirAret(listVisited, ar);
             }
         }
         return listVisited;
+    }
+
+    /**
+     * cette fonction permet d'ajouter
+     * une aret a mon list
+     * @param listVisited
+     * @param ar
+     */
+    private void choisirAret(List<Sommet> listVisited, Arete ar) {
+        ar.getDebut().visit();
+        ar.getVoisin().visit();
+        if (! listVisited.contains(ar.getDebut())) {
+            listVisited.add(ar.getDebut());
+        }
+        if (! listVisited.contains(ar.getVoisin())) {
+            listVisited.add(ar.getVoisin());
+        }
     }
 }

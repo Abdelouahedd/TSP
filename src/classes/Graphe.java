@@ -1,9 +1,9 @@
 package classes;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
 
 /**
  * @author abdelouahed ennouri
@@ -78,6 +78,7 @@ public class Graphe {
      */
     public List<Arete> getSortedAret() {
         List<Arete> list=new ArrayList<>();
+
         for (int i=0; i<nbVille; i++) {
             for (int j=i+1; j<nbVille; j++) {
                 Sommet s1=new Sommet(i);
@@ -86,8 +87,7 @@ public class Graphe {
                 list.add(aret);
             }
         }
-        Collections.sort(list, Arete::compareTo);
-        return list;
+        return list.stream().sorted(Arete::compareTo).collect(Collectors.toList());
     }
 
     public int getPoid(int i, int j) {

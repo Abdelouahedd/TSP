@@ -19,12 +19,12 @@ public class RecuitSimule extends AlgorithmeTrajectoir {
         List<List<Sommet>> voisins;//list des voisins generer
         List<Sommet> voisinAvecCoutMin;//le voisin optimom
         double T=TMAX;//température initiale
-        int itr=0;
+
         boolean conditionEquilibre=false;
         Random rand=new Random();
         while (T>1) {
             do {
-                int j = rand.nextInt(graphe.getNbVille());
+                int j=rand.nextInt(graphe.getNbVille());
                 voisins=generateVoisin(sommets, j);//géneration des voisin
                 voisinAvecCoutMin=getVoisinAvecCoutMin(voisins);//choisir le meilleur voisin
                 var r=Math.random();//géneration de 0<r<1
@@ -32,14 +32,13 @@ public class RecuitSimule extends AlgorithmeTrajectoir {
                     sommets=voisinAvecCoutMin;
                     conditionEquilibre=true;
                 }
-              //  System.out.printf("cout %d iter est %d\n", itr, graphe.getCouts(sommets));
             } while (! conditionEquilibre);
-            T=T-150;//Modification de la températur
+            T=T-100;//Modification de la températur
         }
         return sommets;
     }
 
     public double fonctionBoltZmann(List s, List ss, double t) {
-        return Math.exp(- ((graphe.getCouts(ss)-graphe.getCouts(s)) / t));
+        return Math.exp(- ((graphe.getCouts(s)-graphe.getCouts(ss)) / t));
     }
 }
